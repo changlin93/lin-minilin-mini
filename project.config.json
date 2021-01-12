@@ -10,7 +10,7 @@
     "minified": true,
     "newFeature": true,
     "coverView": true,
-    "nodeModules": false,
+    "nodeModules": true,
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
@@ -38,8 +38,8 @@
     "minifyWXSS": true
   },
   "appid": "wx0fe80d42b0d37cc8",
-  "projectname": "leader",
-  "libVersion": "2.14.1",
+  "projectname": "clin",
+  "libVersion": "2.14.3",
   "condition": {
     "search": {
       "list": []

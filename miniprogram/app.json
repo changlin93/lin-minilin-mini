@@ -1,26 +1,29 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
-  ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+    "pages": [
+        "pages/index/index",
+        "pages/catalog/catalog"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "QuickStart",
+        "navigationBarTextStyle": "black"
+    },
+    "usingComponents": {
+        "lin-icon": "./miniprogram_npm/lin-ui/icon/index",
+        "lin-button": "./miniprogram_npm/lin-ui/button/index",
+        "lin-toast": "./miniprogram_npm/lin-ui/toast/index",
+        "lin-message": "./miniprogram_npm/lin-ui/message/index",
+        "lin-pop-up": "./miniprogram_npm/lin-ui/popup/index",
+        "lin-skeleton": "./miniprogram_npm/lin-ui/skeleton/index",
+        "lin-dialog": "./miniprogram_npm/lin-ui/dialog/index",
+        "lin-mask": "./miniprogram_npm/lin-ui/mask/index",
+        "lin-capsule-bar": "./miniprogram_npm/lin-ui/capsule-bar/index",
+        "lin-card": "./miniprogram_npm/lin-ui/card/index",
+        "lin-tag": "./miniprogram_npm/lin-ui/tag/index",
+        "lin-loadmore": "./miniprogram_npm/lin-ui/loadmore/index"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
 }
